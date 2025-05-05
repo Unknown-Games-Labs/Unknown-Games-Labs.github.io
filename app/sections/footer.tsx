@@ -1,16 +1,17 @@
 'use client'
 
-import Link from "next/link";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export function Footer() {
   return (
     <footer className="py-12 px-4 bg-[#4988e6] text-[#212529]">
       <div className="container max-w-6xl mx-auto" data-aos="fade-up">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
           <div>
             <h3 className="text-xl font-bold mb-4 text-[#212529]">Unknown Games Labs</h3>
             <p className="mb-4">Creating innovative tools and assets for game developers.</p>
-            <div className="flex space-x-4">
+            <span><a href="mailto:unknown.games.labs@gmail.com"><FontAwesomeIcon icon="envelope" size="lg" /> unknown.games.labs@gmail.com</a></span>
+            {/* <div className="flex space-x-4">
               <Link href="#" className="hover:text-[#212529]">
                 <span className="sr-only">Twitter</span>
                 <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -27,43 +28,43 @@ export function Footer() {
                   />
                 </svg>
               </Link>
-            </div>
+            </div> */}
           </div>
-          <div>
+          {/* <div>
             <h3 className="text-xl font-bold mb-4 text-[#212529]">Links</h3>
             <ul className="space-y-2">
-              <li>
+              {/* <li>
                 <Link href="#" className="hover:text-[#212529]">
                   Home
                 </Link>
-              </li>
+              </li> * /}
               <li>
-                <Link href="#" className="hover:text-[#212529]">
+                <Link href="#products" className="hover:text-[#212529]">
                   Products
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="#" className="hover:text-[#212529]">
                   About Us
                 </Link>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <Link href="#" className="hover:text-[#212529]">
                   Contact
                 </Link>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <Link href="#" className="hover:text-[#212529]">
                   Unity Asset Store
                 </Link>
-              </li>
+              </li> * /}
             </ul>
-          </div>
+          </div> */}
           <div>
             <h3 className="text-xl font-bold mb-4 text-[#212529]">Support Us</h3>
             <p className="mb-4">If you like our work, consider buying us a coffee!</p>
             
-            <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="unknown_studio" data-color="#BD5FFF" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
+            <a href="https://www.buymeacoffee.com/unknown_studio" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" style={{height: 60, width: 217}} /></a>
 
           </div>
         </div>

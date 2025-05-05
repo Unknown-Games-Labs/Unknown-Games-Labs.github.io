@@ -1,8 +1,7 @@
-import type React from "react"
 import "@/app/globals.css"
-import { Lato } from "next/font/google"
 import { ThemeProvider } from "@/components/theme-provider"
-import { icons } from "lucide-react"
+import { Lato } from "next/font/google"
+import type React from "react"
 
 const lato = Lato({
   weight: ["400", "700", "900"],
@@ -23,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning className="scroll-smooth">
       <body className={lato.className}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
           {children}
