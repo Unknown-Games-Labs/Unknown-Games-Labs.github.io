@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
+import { ZoomImage } from "@/components/zoom-image";
 
 export function ProductMusicPlayer() {
   return (
@@ -31,28 +31,28 @@ export function ProductMusicPlayer() {
   
             {/* Product Screenshots */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-12" data-aos="fade-up">
-              <Image
+              <ZoomImage
                 src="/images/music-player/01.png"
                 alt="Music Player Screenshot 1"
                 width={300}
                 height={200}
                 className="rounded-lg w-full h-auto"
               />
-              <Image
+              <ZoomImage
                 src="/images/music-player/02.png"
                 alt="Music Player Screenshot 2"
                 width={300}
                 height={200}
                 className="rounded-lg w-full h-auto"
               />
-              <Image
+              <ZoomImage
                 src="/images/music-player/03.png"
                 alt="Music Player Screenshot 3"
                 width={300}
                 height={200}
                 className="rounded-lg w-full h-auto"
               />
-              <Image
+              <ZoomImage
                 src="/images/music-player/04.png"
                 alt="Music Player Screenshot 4"
                 width={300}

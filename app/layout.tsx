@@ -1,5 +1,6 @@
 import "@/app/globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
+import { ZoomImageProvider } from "@/components/zoom-image-provider"
 import { Lato } from "next/font/google"
 import type React from "react"
 
@@ -25,7 +26,9 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning className="scroll-smooth">
       <body className={lato.className}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
-          {children}
+          <ZoomImageProvider>
+            {children}
+          </ZoomImageProvider>
         </ThemeProvider>
       </body>
     </html>
