@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function Header() {
   return (
-    <section className="flex relative flex-col items-center justify-center min-h-screen px-4 py-20 text-center">
+    <section className="flex relative flex-col items-center justify-center min-h-screen px-4 py-20 text-center pointer-events-none">
       <img className="absolute w-full h-full" src="/images/banner-bg.png" />
       <div className="absolute w-full h-[15vh] bottom-0" style={{background: 'linear-gradient(0deg, rgba(143, 36, 193, 1) 0%, rgba(143, 36, 193, 0) 100%)'}} />
       <div className="container max-w-5xl mx-auto">

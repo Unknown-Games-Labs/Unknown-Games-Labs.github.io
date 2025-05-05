@@ -36,7 +36,7 @@ export function ZoomImageProvider({ children }: { children: ReactNode }) {
       <div className={`${styles.backdrop} ${isVisible ? styles.active : ''}`} onClick={hideImage}>
         {imageSrc && (
           <div className={styles.fullscreen_image}>
-            <Image src={imageSrc} alt="Fullscreen Image" fill />
+            <Image src={imageSrc} alt="Fullscreen Image" className="rounded-xlg w-full border border-gray-500/50 shadow-gray-950/50 shadow-lg cursor-pointer" width={300} height={200} />
           </div>
         )}
       </div>

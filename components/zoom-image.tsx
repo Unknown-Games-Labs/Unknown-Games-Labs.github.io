@@ -18,7 +18,7 @@ export const ZoomImage = ({ ...imageProps }: ZoomImageProps) => {
   
   return (
     <>
-      <Image {...imageProps} onClick={setFlag} />
+      <Image {...imageProps} onClick={setFlag} className={imageProps.className + ' shadow-gray-950/50 shadow-lg cursor-pointer'} />
     </>
   )
 }

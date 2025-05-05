@@ -14,7 +14,7 @@ export function ProductMusicPlayer() {
             </p>
   
             {/* Product Features */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16 text-[#ade5ff]">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16 text-[#ade5ff]" data-aos="fade-up">
               <div className="bg-[#710ca0] p-6 rounded-lg">
                 <h3 className="text-xl font-bold mb-3">Easy Integration</h3>
                 <p>Simple drag-and-drop implementation with minimal coding required.</p>
@@ -63,7 +63,7 @@ export function ProductMusicPlayer() {
   
             {/* Call to Action */}
             <div className="text-center">
-              <Button className="bg-[#ade5ff] hover:bg-[#c6e9fa] px-8 py-6 text-lg">
+              <Button className="bg-[#ade5ff] hover:bg-[#c6e9fa] px-8 py-6 text-lg" data-aos="fade-up">
                 Comming soon
                 {/* Get it on Unity Asset Store */}
               </Button>
