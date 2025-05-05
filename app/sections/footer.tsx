@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export function Footer() {
   return (
-    <footer className="py-12 px-4 bg-[#4988e6] text-[#212529]">
+    <footer className="pt-24 pb-12 px-4 bg-[#4988e6] text-[#212529]">
       <div className="container max-w-6xl mx-auto" data-aos="fade-up">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
           <div>

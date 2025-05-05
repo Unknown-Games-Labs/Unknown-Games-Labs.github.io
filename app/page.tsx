@@ -35,6 +35,7 @@ export default function LandingPage() {
       <Header />
 
       <ProductMusicPlayer />
+      {/* <ProductSimpleUI /> */}
       
       <Footer />
     </div>

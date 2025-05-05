@@ -1,9 +1,9 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
-export function ProductMusicPlayer() {
+export function ProductSimpleUI() {
   return (
-        <section className="py-24 px-4 bg-[#8f24c1]" id="products">
+        <section className="py-20 px-4 bg-[#8f24c1]" id="products">
           <div className="container max-w-6xl mx-auto" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center text-[#ade5ff]">
               Music Player Asset for Unity
