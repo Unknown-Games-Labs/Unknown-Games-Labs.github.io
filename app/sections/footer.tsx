@@ -1,5 +1,6 @@
 'use client'
 
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export function Footer() {
@@ -10,7 +11,7 @@ export function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4 text-[#212529]">Unknown Games Labs</h3>
             <p className="mb-4">Creating innovative tools and assets for game developers.</p>
-            <span><a href="mailto:unknown.games.labs@gmail.com"><FontAwesomeIcon icon="envelope" size="lg" /> unknown.games.labs@gmail.com</a></span>
+            <span><a href="mailto:unknown.games.labs@gmail.com"><FontAwesomeIcon icon={faEnvelope} size="sm" className='mr-2  border-[#212529]' />unknown.games.labs@gmail.com</a></span>
             {/* <div className="flex space-x-4">
               <Link href="#" className="hover:text-[#212529]">
                 <span className="sr-only">Twitter</span>
@@ -64,7 +65,7 @@ export function Footer() {
             <h3 className="text-xl font-bold mb-4 text-[#212529]">Support Us</h3>
             <p className="mb-4">If you like our work, consider buying us a coffee!</p>
             
-            <a href="https://www.buymeacoffee.com/unknown_studio" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" style={{height: 60, width: 217}} /></a>
+            <a href="https://www.buymeacoffee.com/unknown_games_labs" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" style={{height: 60, width: 217}} /></a>
 
           </div>
         </div>

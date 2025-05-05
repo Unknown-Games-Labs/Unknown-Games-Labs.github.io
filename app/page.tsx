@@ -4,10 +4,11 @@ import AOS from 'aos'
 import { Rajdhani } from "next/font/google"
 import { useEffect } from "react"
 
-import 'aos/dist/aos.css'
 import { Footer } from "./sections/footer"
 import { Header } from "./sections/header"
 import { ProductMusicPlayer } from "./sections/product-music_player"
+
+import 'aos/dist/aos.css'
 
 const rajdhani = Rajdhani({
   weight: ["400", "600", "700"],

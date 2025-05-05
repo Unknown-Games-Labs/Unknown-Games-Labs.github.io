@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 export function ProductMusicPlayer() {
@@ -61,11 +62,12 @@ export function ProductMusicPlayer() {
             </div>
   
             {/* Call to Action */}
-            {/* <div className="text-center">
+            <div className="text-center">
               <Button className="bg-[#ade5ff] hover:bg-[#c6e9fa] px-8 py-6 text-lg">
-                Get it on Unity Asset Store
+                Comming soon
+                {/* Get it on Unity Asset Store */}
               </Button>
-            </div> */}
+            </div>
           </div>
         </section>
   )
